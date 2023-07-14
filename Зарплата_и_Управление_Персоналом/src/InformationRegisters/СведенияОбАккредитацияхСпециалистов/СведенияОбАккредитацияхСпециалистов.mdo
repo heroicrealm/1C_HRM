@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b50e143b-8b01-4ec8-a3ef-ef6e41e34302">
+  <producedTypes>
+    <selectionType typeId="a2d24dbe-435e-472f-961b-4d51bf5ba571" valueTypeId="ee560a60-56c5-4b6f-b579-9c1b62815dc1"/>
+    <listType typeId="560b6319-63a3-4966-8288-faf86a6cfe40" valueTypeId="bab2c753-d84e-42ab-b747-03f42194d013"/>
+    <managerType typeId="de4ab0d0-fdd4-4b7d-b226-42f630b4e17e" valueTypeId="7eccce34-bedb-4822-960c-24d0ca75d6cb"/>
+    <recordSetType typeId="db66fdab-dd83-43ed-a12c-50ba88e05b4a" valueTypeId="9df033e1-c612-4c9e-bba5-317767f1ea55"/>
+    <recordKeyType typeId="74492171-de70-4010-abdf-9b773c362b63" valueTypeId="31181392-6877-4a5d-ab68-c13374880aa4"/>
+    <recordType typeId="fedaea4f-cbd2-495f-b620-78b304f14ba8" valueTypeId="d988be77-070f-4b39-8179-6b6c0f7298d6"/>
+    <recordManagerType typeId="22ccd861-e536-4739-8bab-b2e495808ab6" valueTypeId="e67c19ed-46ba-4493-b3a8-14e71d65d2a3"/>
+  </producedTypes>
+  <name>СведенияОбАккредитацияхСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения об аккредитациях специалистов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата протокола</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Аккредитация специалиста</value>
+  </recordPresentation>
+  <resources uuid="0b7d6d64-7c4f-4d09-8d44-68ea0fc32ec7">
+    <name>ВидПроцедуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид процедуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПроцедурАккредитацииСпециалистов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="47880dbd-e8e3-4262-b56a-e8c0b29ef9a3">
+    <name>ПрофессиональныйСтандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессиональный стандарт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрофессиональныеСтандарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1aeb0a9c-0479-40f2-bc54-3be77a26d46b">
+    <name>НомерПротокола</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер протокола</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="21b50116-a696-49c6-a3fd-3ffd87b94da7">
+    <name>МестоПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место проведения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеЗаведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9bbea92f-1972-4fa3-88e7-5bbfb3506d82">
+    <name>ДействуетДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="fe91ecdd-ff0c-4b1e-bd3e-fc2c70dace17">
+    <name>РегистрационныйНомерСвидетельства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер свидетельства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="2448d487-04ae-4072-9fb7-f69bb8aa9be0">
+    <name>ДатаВыдачиСвидетельства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи свидетельства</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4372d09-9fb8-44ab-8fbd-46a0f52434ed">
+    <name>УровеньОбразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень образования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОбразованияФизическихЛиц</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f46fc7b8-cac7-4bc5-b886-74d3e4e16a49">
+    <name>СпециальностьПоОбразованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальность по образованию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторСпециальностейПоОбразованию</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a1ede05f-3df8-40b5-8edc-182f67f8d3ca">
+    <name>ВидДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид деятельности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДеятельностиСпециалистов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="bc7c6282-4820-4b3d-9899-6cdbc5d80b18">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0f670f6d-7c78-4262-a16b-7f136b960d81">
+    <name>Специальность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторСпециальностейПоОбразованию</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3720c246-b31c-43a4-b7c3-3e9cd821fae6">
+    <name>ДатаПротокола</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата протокола</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c2edb326-d7e5-47a1-bc1c-053257d9bc07">
+    <name>СвидетельствоОбАккредитацииСпециалиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свидетельство об аккредитации специалиста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="99d8a0fc-4105-4e54-aabc-47fe78adcc40">
+    <name>ФормаНабораЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма набора записей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

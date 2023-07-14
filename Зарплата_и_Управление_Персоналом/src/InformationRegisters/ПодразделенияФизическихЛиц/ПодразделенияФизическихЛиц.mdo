@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e28a42f8-97e2-4617-b119-517bd970aa51">
+  <producedTypes>
+    <selectionType typeId="f52cfa16-d4d2-40c8-a9fd-dd9bd376d9a5" valueTypeId="f2eca6b2-10b3-44ea-a2ee-2ea6fb331653"/>
+    <listType typeId="739bfc3b-ec61-40e4-9298-148f9689c29e" valueTypeId="a5fdf20b-b23c-4338-858d-90ad72be72c0"/>
+    <managerType typeId="f1f526da-e6a4-4449-ab80-5e757a0a3aec" valueTypeId="328d481b-de0b-44e9-9daa-08b7dc0a04b9"/>
+    <recordSetType typeId="23f4aa22-bc4a-42dd-b97b-7548a38d0cd0" valueTypeId="9880d85d-d2d0-4525-8e49-1e47f3104274"/>
+    <recordKeyType typeId="4afc7da4-d05e-4fe9-ab71-6d38bee8219f" valueTypeId="07e70516-9b53-4abf-b6a3-4b2ea875fc4d"/>
+    <recordType typeId="7e37c0ab-1616-4250-986e-9872331e078b" valueTypeId="7fccc7fb-0fd3-41cd-8af7-58a36cbea6cf"/>
+    <recordManagerType typeId="f3b72ff6-e93b-4876-8d5a-5390f9138292" valueTypeId="a62e7ff6-71a3-4f76-a4ba-afb476483499"/>
+  </producedTypes>
+  <name>ПодразделенияФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения физических лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="7af20d46-2ccf-420c-b215-5e564d3ea39f">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d06d541f-9aea-4b89-b03c-7808c36a446c">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cdef031-b30d-4bcd-a002-4fe7cfd687e7">
+  <producedTypes>
+    <containerType typeId="4f414d43-f45b-4956-ba9f-a37a720c1311" valueTypeId="1c30a335-68b0-419a-af88-56a131491215"/>
+  </producedTypes>
+  <name>ОпределяющийСвязиФизическогоЛицаНаборЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определяющий связи физического лица набор записей</value>
+  </synonym>
+  <type>
+    <types>InformationRegisterRecordSet.МестоПозицииШтатногоРасписанияВСтруктуреПредприятия</types>
+  </type>
+</mdclass:DefinedType>

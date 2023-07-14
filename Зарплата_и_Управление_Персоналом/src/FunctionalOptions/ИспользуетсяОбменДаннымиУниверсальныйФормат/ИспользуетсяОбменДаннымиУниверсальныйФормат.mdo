@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdae3c0a-1833-4ff7-af9a-7a7b49b4b873">
+  <name>ИспользуетсяОбменДаннымиУниверсальныйФормат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется обмен данными универсальный формат</value>
+  </synonym>
+  <location>Constant.ИспользуетсяОбменДаннымиУниверсальныйФормат</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтражениеСтатистикиПерсоналаВБухучете</content>
+  <content>Catalog.ОтражениеСтатистикиПерсоналаВБухучетеПрисоединенныеФайлы</content>
+</mdclass:FunctionalOption>

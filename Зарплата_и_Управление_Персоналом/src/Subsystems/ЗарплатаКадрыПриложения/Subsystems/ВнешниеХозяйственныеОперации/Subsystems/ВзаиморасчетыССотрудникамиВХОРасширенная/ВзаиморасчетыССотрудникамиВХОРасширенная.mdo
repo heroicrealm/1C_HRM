@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae0bcb6a-2b58-4fa4-a897-2e748848cdca">
+  <name>ВзаиморасчетыССотрудникамиВХОРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с сотрудниками ВХОРасширенная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ВозвратСотрудникомЗадолженности</content>
+  <content>Document.СведенияОНезачисленнойЗарплате</content>
+  <content>CommonModule.ВзаиморасчетыССотрудникамиВХОРасширенный</content>
+  <content>CommonModule.ВзаиморасчетыССотрудникамиВХОКлиентРасширенный</content>
+  <content>CommonModule.ВзаиморасчетыССотрудникамиВХОФормыРасширенный</content>
+  <content>Role.ДобавлениеИзменениеВнешнихОперацийРасчетовССотрудниками</content>
+  <content>Role.ЧтениеВнешнихОперацийРасчетовССотрудниками</content>
+  <content>CommonCommand.ОткрытьСведенияОНезачисленнойЗарплатеПоВедомости</content>
+  <content>CommonCommand.ВвестиСведенияОНезачисленнойЗарплате</content>
+  <content>Catalog.ВозвратСотрудникомЗадолженностиПрисоединенныеФайлы</content>
+  <content>Catalog.СведенияОНезачисленнойЗарплатеПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ВнешниеХозяйственныеОперации</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb701c31-3fb4-48ab-a58e-544109bc8234">
+  <name>ЗаблокироватьОткрытиеФормНаМобильномКлиентеЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заблокировать открытие форм на мобильном клиенте ЭДО</value>
+  </synonym>
+  <source>
+    <types>DataProcessorManager.ЭлектронноеВзаимодействие</types>
+    <types>CatalogManager.МаршрутыПодписания</types>
+    <types>DataProcessorManager.ПанельАдминистрированияБЭД</types>
+    <types>InformationRegisterManager.ПодписываемыеВидыЭД</types>
+    <types>InformationRegisterManager.СостояниеПодписанияЭД</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.ОбщегоНазначенияБЭДВызовСервера.ЗаблокироватьОткрытиеФормНаМобильномКлиентеЭДО</handler>
+</mdclass:EventSubscription>

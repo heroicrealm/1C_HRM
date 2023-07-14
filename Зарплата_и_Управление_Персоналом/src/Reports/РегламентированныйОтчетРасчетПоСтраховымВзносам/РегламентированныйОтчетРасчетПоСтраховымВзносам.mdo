@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00174ede-8283-42e7-882d-8c8680068afa">
+  <producedTypes>
+    <objectType typeId="43b5feb9-9c15-471c-b487-a7405a4532a1" valueTypeId="01f081d8-6c0e-4c1f-9728-d9120b5370ee"/>
+    <managerType typeId="a29b75bf-7eab-4a36-91b6-bcd078c56456" valueTypeId="94f5652d-a9e6-4ea9-ae71-1d8746ead5f3"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетРасчетПоСтраховымВзносам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет по страховым взносам</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетРасчетПоСтраховымВзносам.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2c13a759-3745-403d-ab8f-1b7bb2b16a59">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по страховым взносам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49abf0bd-c75c-4904-9e7f-91e41d59c13c">
+    <name>ФормаОтчета2017Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по страховым взносам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c17be43-da40-4362-806e-7d3ddfaa9d0b">
+    <name>ФормаОтчета2020Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по страховым взносам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e3d44a7-439b-40a9-b1d5-73d205707415">
+    <name>ФормаОтчета2020Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по страховым взносам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="703bd40b-bac9-4738-a51c-2ce4f208cee4">
+    <name>ФормаОтчета2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по страховым взносам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="873aa4fd-0400-449c-b47a-8ec1625831a5">
+    <name>МБ_1151111_5_01000_01_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151111_5.01000_01.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="e1246ec6-774c-4bfb-aa03-dfba4763108e">
+    <name>НастройкиЗагрузкиXML2017Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки XML2017 кв1</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0e4c4c17-d5fc-40ca-98ba-98dd50688a04">
+    <name>НастройкиСравнения2017Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2017 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="412e6f6d-af3c-4748-a2ff-4d00ccea56c8">
+    <name>НастройкиКС2017Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки КС 2017 Кв1</value>
+    </synonym>
+  </templates>
+  <templates uuid="523dec88-f1f2-478a-b6bc-b462765e3466">
+    <name>ПечатныйБланк2017Кв1_Раздел1_Лист1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 лист1</value>
+    </synonym>
+  </templates>
+  <templates uuid="9c9b4975-5bc4-4a20-9551-bc0ee4ded729">
+    <name>ПечатныйБланк2017Кв1_Раздел1_Лист2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 лист2</value>
+    </synonym>
+  </templates>
+  <templates uuid="1ada1947-02d2-4772-a672-5a58c260bf0f">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил10_Лист1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил10 лист1</value>
+    </synonym>
+  </templates>
+  <templates uuid="d496ec18-7e94-4955-b527-80c85d0cf1cd">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил10_Лист2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил10 лист2</value>
+    </synonym>
+  </templates>
+  <templates uuid="d23da9e8-134a-429d-9f7a-0043bc2722c3">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил1Подр1_1и1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил1 подр1 1и1 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="f9944796-2514-4296-a723-200420d7032e">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил1Подр1_3_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил1 подр1 3 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="8da4447a-5205-4a1d-b2b5-2966516b2212">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил1Подр1_3_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил1 подр1 3 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="53b504d4-5586-4fb2-b62d-8f6e2590e636">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил1Подр1_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил1 подр1 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="ef67c13f-7d8e-42d9-9991-6629c71e0bab">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил2</value>
+    </synonym>
+  </templates>
+  <templates uuid="90e6f840-d0e1-4036-9c7a-b159f0e2cb70">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил3</value>
+    </synonym>
+  </templates>
+  <templates uuid="81cd1ca6-3f71-4e23-8604-c708b78a0a83">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил4</value>
+    </synonym>
+  </templates>
+  <templates uuid="791ad97b-0488-4604-b9b4-eaf4bcd2677c">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил5_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил5 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="05d3b212-731c-40df-ba6c-cbe54322b495">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил7</value>
+    </synonym>
+  </templates>
+  <templates uuid="b819ac3e-b96f-4bdb-ad26-4dc62fc02358">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил8</value>
+    </synonym>
+  </templates>
+  <templates uuid="6c46e48f-04af-468d-9d10-6d58b434bc87">
+    <name>ПечатныйБланк2017Кв1_Раздел1Прил9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел1 прил9</value>
+    </synonym>
+  </templates>
+  <templates uuid="1f6c5e43-7d31-4ce6-8318-656ff6069aba">
+    <name>ПечатныйБланк2017Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел2</value>
+    </synonym>
+  </templates>
+  <templates uuid="68460a42-09a8-4044-9d25-e857cbb29c76">
+    <name>ПечатныйБланк2017Кв1_Раздел2Прил1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел2 прил1</value>
+    </synonym>
+  </templates>
+  <templates uuid="61683bdd-8be1-4c3d-88ec-eb176ae2f718">
+    <name>ПечатныйБланк2017Кв1_Раздел3_Лист1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел3 лист1</value>
+    </synonym>
+  </templates>
+  <templates uuid="9152e86b-4100-4392-aad9-5f481902e7d3">
+    <name>ПечатныйБланк2017Кв1_Раздел3_Лист2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 раздел3 лист2</value>
+    </synonym>
+  </templates>
+  <templates uuid="4834ea77-8397-4c67-abd9-db708939e974">
+    <name>ПечатныйБланк2017Кв1_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 реестр</value>
+    </synonym>
+  </templates>
+  <templates uuid="6ac3826c-f33a-410f-801f-53ba8d20dd6a">
+    <name>ПечатныйБланк2017Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="d90985e5-cecc-4f14-9fa8-8b4a1f85cb68">
+    <name>ПечатныйБланк2017Кв1_ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк2017 кв1 физ лицо</value>
+    </synonym>
+  </templates>
+  <templates uuid="7eaf72a3-82c2-4b4e-8917-f43fcb17fbb2">
+    <name>СпискиВыбора2017Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="17a04ae8-58ff-4c21-9fdf-570fdaad1e00">
+    <name>СхемаВыгрузки501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки501</value>
+    </synonym>
+  </templates>
+  <templates uuid="a4774499-7f19-45e4-bccc-65e4c4971000">
+    <name>ФормаОтчета2017Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1</value>
+    </synonym>
+  </templates>
+  <templates uuid="0b2376fd-cd8c-4665-a4f2-a0bca65584b1">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил1</value>
+    </synonym>
+  </templates>
+  <templates uuid="fe6cd010-482f-4d2d-af26-690bb4b29722">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил10</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил10</value>
+    </synonym>
+  </templates>
+  <templates uuid="16269550-9c3d-4293-b0b0-1f232e8b00ff">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил1Подр1_1и1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил1 подр1 1и1 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="0203213c-56e5-4765-b031-8ce28536b8b6">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил1Подр1_3_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил1 подр1 3 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="bf0da09f-3a90-4f6f-a8f1-4f950780e880">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил1Подр1_3_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил1 подр1 3 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="8d5488de-b849-4175-adf5-6c1600e4b273">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил1Подр1_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил1 подр1 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="35221b97-2131-463a-9616-f27458c661fc">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил2</value>
+    </synonym>
+  </templates>
+  <templates uuid="edc509a4-bd26-47ea-9849-9986cf7efd4b">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил3</value>
+    </synonym>
+  </templates>
+  <templates uuid="33216b04-5b48-4d5f-bb67-b7fdaf50f28c">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил4</value>
+    </synonym>
+  </templates>
+  <templates uuid="d71ee58e-a4a6-4824-a245-260ee1f2a41e">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил5_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил5 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="d7ba3b4c-b1f9-4fac-a1b7-e52d01ce88d5">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил7</value>
+    </synonym>
+  </templates>
+  <templates uuid="ed072977-905d-4fc8-81a5-17e5cf298823">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил8</value>
+    </synonym>
+  </templates>
+  <templates uuid="372ed7a8-acbd-476e-be76-a9e201fef351">
+    <name>ФормаОтчета2017Кв1_Раздел1Прил9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел1 прил9</value>
+    </synonym>
+  </templates>
+  <templates uuid="d8202f6d-f15e-4999-8c9f-ca85b2adcc34">
+    <name>ФормаОтчета2017Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел2</value>
+    </synonym>
+  </templates>
+  <templates uuid="73da3ee3-f894-41ac-98c1-1bdaed1ce220">
+    <name>ФормаОтчета2017Кв1_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 раздел3</value>
+    </synonym>
+  </templates>
+  <templates uuid="2150809d-03b9-4144-8b99-87f82da37f1a">
+    <name>ФормаОтчета2017Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="d3aecbce-a227-4c38-bfff-373d366764b3">
+    <name>ФормаОтчета2017Кв1_ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2017 кв1 физ лицо</value>
+    </synonym>
+  </templates>
+  <templates uuid="d3611006-bdb6-45f3-a3f0-2117c1eb6957">
+    <name>МБ_1151111_5_02000_02_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151111_5.02000_02.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="4ea64487-270c-478a-a64e-111ce4fd5a0c">
+    <name>НастройкиЗагрузкиXML2020Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2020 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="30d303f6-bda0-4a40-a6f4-36bc1083df9f">
+    <name>НастройкиСравнения2020Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2020 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="9471cde1-089f-458a-ba73-dbe26ca9d353">
+    <name>ПечатныйБланк2020Кв1_Раздел1_Лист1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, лист 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="6ff020ef-715f-438a-bda4-3af3a52ea0f4">
+    <name>ПечатныйБланк2020Кв1_Раздел1_Лист2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, лист 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="6e27e0ed-d880-43a2-948b-f0532efbc279">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил1_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="b8383b1a-5353-4269-938d-274aba179a47">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил1Подр1_1и1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.1 и 1.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="28c3e322-5468-4f6f-b10d-f877c8052196">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил1Подр1_3_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="0317ce6e-9981-4109-b7b7-3a679981123a">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил1Подр1_3_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="996dd10e-c1e4-4523-99e0-dc0a915d36ee">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил2_Лист1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="4f1859f4-dbf7-44d3-9ee9-f5c1b116ec8f">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил2_Лист2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="7178bb9c-b762-44de-9abc-ab282386901b">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="5fcf4edc-7077-4613-bd3d-df33e2833f3f">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="f688c0c8-f4db-422a-97f3-e4a108951c64">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="01430c4a-cf89-4a7b-b637-384b6183b036">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил6_7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 6 и 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="ef982238-6cfc-48ef-a87f-05766003a0e3">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 8</value>
+    </synonym>
+  </templates>
+  <templates uuid="84f0378e-ea4c-4cbd-8afa-7d1ed335dd73">
+    <name>ПечатныйБланк2020Кв1_Раздел1Прил9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 9</value>
+    </synonym>
+  </templates>
+  <templates uuid="1ebe7eb0-10ad-4410-a457-3bb3d4fbb858">
+    <name>ПечатныйБланк2020Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="90f5fd43-38fd-49a3-a598-828f383cf48f">
+    <name>ПечатныйБланк2020Кв1_Раздел2Прил1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2, прил. 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="4fff1655-65dd-4994-8eaa-029a0a98f7c7">
+    <name>ПечатныйБланк2020Кв1_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="db3eb52c-e30c-4a3f-ad65-ce618fa8ba4e">
+    <name>ПечатныйБланк2020Кв1_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бланк реестра</value>
+    </synonym>
+  </templates>
+  <templates uuid="777b44f4-fea5-4577-91e4-53254e28db90">
+    <name>ПечатныйБланк2020Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="b6686bda-6b78-4950-8438-6dc91bef52b2">
+    <name>СпискиВыбора2020Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="0721b5c0-b7fa-43aa-9f24-0b7bc263d180">
+    <name>СхемаВыгрузки502</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки, версия 5.02</value>
+    </synonym>
+  </templates>
+  <templates uuid="c3ec7fb4-a314-4821-98e4-d3197eb27329">
+    <name>ФормаОтчета2020Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="0ca2a256-2023-4e32-8abd-f9f8b5e8425b">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="e3e35f69-5e56-466b-921f-6f8d1ef6409f">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил1_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="5a365b72-512b-4f29-84cc-38ef5e7dedb2">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил1Подр1_1и1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.1 и 1.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="74239bd5-6b37-432d-8cac-0a8fa772e7b3">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил1Подр1_3_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="dfe1e6d6-1cf1-425c-a390-18f81a2297fe">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил1Подр1_3_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="4056e800-4f92-4d32-98d9-8a6c7fc58db1">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="be9f7ff3-f852-487c-8471-996d73017f24">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="efaa2733-b4e1-4aca-b082-0e0636b07216">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="4b2b27ab-5543-4b4a-a2b3-db304ae06592">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="05137be1-a003-4dac-a4d4-bd52a9c030a9">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="e34bfa49-dbf5-4b39-8b6b-116c40f5677c">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="a46a8c46-9afc-4445-a241-369dc0376dd8">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 8</value>
+    </synonym>
+  </templates>
+  <templates uuid="82d0fa7e-dbe0-4705-8d22-af1f86a7e2ab">
+    <name>ФормаОтчета2020Кв1_Раздел1Прил9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 9</value>
+    </synonym>
+  </templates>
+  <templates uuid="ed406ca6-a2a2-4837-8869-18d843695101">
+    <name>ФормаОтчета2020Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="25b6d01e-2990-4197-a3f2-e8d802c4b513">
+    <name>ФормаОтчета2020Кв1_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="edee36ba-ff22-422f-90e5-fe404638f9d0">
+    <name>ФормаОтчета2020Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="abf44357-17c1-43ef-acff-8fea61f1c3e7">
+    <name>НастройкиКС2020Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки КС 2020 Кв1</value>
+    </synonym>
+  </templates>
+  <templates uuid="937bfd64-6edb-4035-a55f-98156d8bd7e4">
+    <name>НастройкиЗагрузкиXML2020Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2020 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d0a7b0ce-4051-486d-8fe4-2fc7ca9ce11a">
+    <name>НастройкиКС2020Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки КС 2020 Кв4</value>
+    </synonym>
+  </templates>
+  <templates uuid="96213fc5-e774-4eb7-83cf-5b994383533f">
+    <name>НастройкиСравнения2020Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2020 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f253f4cf-a3a9-426d-931c-b634933b2440">
+    <name>ПечатныйБланк2020Кв4_Раздел1_Лист1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, лист 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="9bc96252-fafb-41b2-8e72-a3f3ea3805d9">
+    <name>ПечатныйБланк2020Кв4_Раздел1_Лист2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, лист 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="6ef5c1e0-4193-47ae-afe7-a28af7205af4">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил1_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="8c4c0853-85a9-4e47-a3b3-e34ac230f7a4">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил1Подр1_1и1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.1 и 1.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="644ec58c-85bb-47b5-a7dc-a27e809b1621">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил1Подр1_3_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="32722a4b-79e3-49c5-babf-ae002d2c4334">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил1Подр1_3_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="830a3bc0-42c7-47be-8be7-cb90a0ae7a25">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил2_Лист1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="8b23beb2-a724-4d55-a7a6-e5e35ca0779b">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил2_Лист2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="6e80b10f-f514-4564-bb9f-f0d23d046bd0">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="27b2748e-82cf-44e2-a91b-2567c0c8addb">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="7136ab48-d3fd-4cf6-8831-0abb09c345a0">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="1df0f629-2bbc-4a5e-8488-a5f210627470">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил5_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 5.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="53fea0ae-c32d-499c-b276-a67258c1946d">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил6_7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 6 и 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="68cd57ac-5ce8-4766-93bf-b61d8028ff3d">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 8</value>
+    </synonym>
+  </templates>
+  <templates uuid="9a597ffb-8577-4ad0-80dc-1238843a8b45">
+    <name>ПечатныйБланк2020Кв4_Раздел1Прил9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 9</value>
+    </synonym>
+  </templates>
+  <templates uuid="9f725e1b-250d-4d28-86a3-2b3b7ce8f606">
+    <name>ПечатныйБланк2020Кв4_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="580ab361-431f-423e-a5f4-170b0586f707">
+    <name>ПечатныйБланк2020Кв4_Раздел2Прил1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2, прил. 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="a6c69bfb-8bc4-4c75-a7f6-869724baa99f">
+    <name>ПечатныйБланк2020Кв4_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="02b537ab-0549-4e63-9f56-a49033612bca">
+    <name>ПечатныйБланк2020Кв4_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бланк реестра</value>
+    </synonym>
+  </templates>
+  <templates uuid="d7e11da3-ccfd-4401-a662-3e1a4f70d181">
+    <name>ПечатныйБланк2020Кв4_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="e16d31e2-ef4a-4e28-88b0-a12d7a8087da">
+    <name>СпискиВыбора2020Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="1a8b6c61-2620-4012-8447-d122832e7d66">
+    <name>СхемаВыгрузки503</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки, версия 5.03</value>
+    </synonym>
+  </templates>
+  <templates uuid="0c16c26f-30f5-47cf-a975-5fb43fca4dc4">
+    <name>ФормаОтчета2020Кв4_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="97331c0d-72fd-43b3-a6fd-6917a0947d5e">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="df489d6b-c697-42fc-836d-976543f2a810">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил1_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="93334eea-5433-4a68-b49f-33084f383a69">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил1Подр1_1и1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.1 и 1.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="5d482a9e-0632-48d0-90f4-fec43cc397eb">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил1Подр1_3_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="91f9614f-031f-46a3-8922-dcf2d9216ace">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил1Подр1_3_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="df3a847c-5003-4e96-aee8-1ac73f8ea855">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="6336ddf7-6cc0-44bf-8b90-647e026753c2">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="e0b5ce76-33d7-4602-a550-d65aac1f223a">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="d0b307c2-18b9-4ad4-80f2-c36b10364c98">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="b1d24d57-b353-4c31-92b9-11c814970136">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил5_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 5.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="b8d70c67-ebf1-4f6c-a3fe-0889cbc7c3db">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="76348d13-0f6e-41fc-ab54-3fcf6e886532">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="bab042c4-f646-4956-98aa-13611fc4e5d1">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 8</value>
+    </synonym>
+  </templates>
+  <templates uuid="ea4f352d-1fc4-490e-9a32-a895337449b2">
+    <name>ФормаОтчета2020Кв4_Раздел1Прил9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 9</value>
+    </synonym>
+  </templates>
+  <templates uuid="2b142bdb-2d58-4c5b-a175-538c1667dfc7">
+    <name>ФормаОтчета2020Кв4_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="fd5f78c9-3a6e-4fdb-bc2c-04e78828e487">
+    <name>ФормаОтчета2020Кв4_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="c0f9a41e-97a2-4a99-8620-dfa5f0f25f5a">
+    <name>ФормаОтчета2020Кв4_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="589b7261-c9c0-49c1-a03f-b66c573014ac">
+    <name>МБ_1151111_5_03000_04_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151111_5.03000_04.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="0c556384-bc02-4bc5-b9d4-f88115d30344">
+    <name>МБ_1151111_5_04000_05_tif</name>
+    <synonym>
+      <key>ru</key>
+      <value>1151111_5.04000_05.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="0dc72f9e-340e-486d-8f33-1956bf3454a6">
+    <name>НастройкиЗагрузкиXML2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2022 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="24ba2d5a-f19d-44d6-8789-24696e399409">
+    <name>НастройкиСравнения2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2022 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8c83df66-4478-427c-85f2-7e04d5fab62e">
+    <name>ПечатныйБланк2022Кв1_Раздел1_Лист1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, лист 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="8857bdf7-56ec-4c5f-b8f3-991323af97ab">
+    <name>ПечатныйБланк2022Кв1_Раздел1_Лист2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, лист 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="2032b223-6c7c-4fdd-8117-ee49fb9a9d9b">
+    <name>ПечатныйБланк2022Кв1_Раздел1Прил1_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="eb0eeeb0-bb77-4599-9d23-3607a4c7fa03">
+    <name>ПечатныйБланк2022Кв1_Раздел1Прил1Подр1_1и1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.1 и 1.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="124784e6-85ee-4935-a88b-a5f1f4f01a00">
+    <name>ПечатныйБланк2022Кв1_Раздел1Прил1Подр1_3_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="504805d1-16a2-478f-a87c-482de4b0449a">
+    <name>ПечатныйБланк2022Кв1_Раздел1Прил1Подр1_3_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="b4cbceb4-903d-4f63-a304-dc537bd806a2">
+    <name>ПечатныйБланк2022Кв1_Раздел1Прил2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="97c15bcb-5ef1-4c4c-a363-288877bf82f3">
+    <name>ПечатныйБланк2022Кв1_Раздел1Прил3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="399e6ccc-d15f-4b75-97fa-df64428542aa">
+    <name>ПечатныйБланк2022Кв1_Раздел1Прил4_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 4 и 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="043d3eeb-2bbd-4e48-be12-97a99d74a385">
+    <name>ПечатныйБланк2022Кв1_Раздел1Прил6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="d33a8b13-7bab-479a-8d66-18555124cebd">
+    <name>ПечатныйБланк2022Кв1_Раздел1Прил7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="ab77e1c2-ac3a-45cf-9ea1-1d9a80de6495">
+    <name>ПечатныйБланк2022Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="e6a18b75-b640-4433-a4bc-2743f4790b0d">
+    <name>ПечатныйБланк2022Кв1_Раздел2Прил1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2, прил. 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="a32691ab-ac38-4014-b5ad-4a8fd12d5178">
+    <name>ПечатныйБланк2022Кв1_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="0ee4d5b9-7bd0-4ab8-b9d8-4156a1308c5a">
+    <name>ПечатныйБланк2022Кв1_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бланк реестра</value>
+    </synonym>
+  </templates>
+  <templates uuid="5f4e7db8-8b2e-44ed-b510-73fd4b69c567">
+    <name>ПечатныйБланк2022Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="60a9529a-663e-48b0-8769-b51dd8467c19">
+    <name>СпискиВыбора2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="25816b24-29de-4206-922c-ed6c0c277ece">
+    <name>СхемаВыгрузки504</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки, версия 5.04</value>
+    </synonym>
+  </templates>
+  <templates uuid="879a7128-4961-49d0-a9ea-1ec803dfeed0">
+    <name>ФормаОтчета2022Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="cdda5679-7fa8-46a2-90cc-a43e063a6185">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="dffe3631-d482-4538-baad-562ea608fb14">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил1_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="30ca43a6-45b9-43db-b196-762341b1c123">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил1Подр1_1и1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.1 и 1.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="42a7c071-2870-4afa-a52c-fa2927daeed9">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил1Подр1_3_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.1</value>
+    </synonym>
+  </templates>
+  <templates uuid="c396a9be-4bea-4102-b276-b98285086118">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил1Подр1_3_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 1, подр. 1.3.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="278661c5-fe0d-4eb1-b279-57ee6006388b">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="2f00d232-ccf8-4c15-99db-060be5f0de83">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="a23a6f63-8ac7-4c2f-9535-7107eb2c44d6">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="5823a5fd-3255-4acd-9136-86761863d4d8">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="745cb7d2-9e8f-419b-b00a-ef5b82831704">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 6</value>
+    </synonym>
+  </templates>
+  <templates uuid="8f923b46-f8d3-4de5-9205-111cef5ae28b">
+    <name>ФормаОтчета2022Кв1_Раздел1Прил7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1, прил. 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="0ce5bb1e-643d-4c53-b186-de3c4fef42ac">
+    <name>ФормаОтчета2022Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="f94caca1-024b-40bf-8509-56be9645dcbb">
+    <name>ФормаОтчета2022Кв1_Раздел3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 3</value>
+    </synonym>
+  </templates>
+  <templates uuid="880fdef4-ddca-4ea3-ae03-3cca55fef52a">
+    <name>ФормаОтчета2022Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="890c2372-cc28-420e-9e2e-70ed914a2c6c">
+    <name>НастройкиКС2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки КС 2022 Кв1</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

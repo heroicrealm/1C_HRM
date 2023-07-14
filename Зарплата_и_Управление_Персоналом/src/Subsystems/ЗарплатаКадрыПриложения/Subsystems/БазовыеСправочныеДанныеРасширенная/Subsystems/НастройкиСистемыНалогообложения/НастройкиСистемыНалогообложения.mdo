@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a77101e-45c2-4a69-9f32-4734e9c9273a">
+  <name>НастройкиСистемыНалогообложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки системы налогообложения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.НастройкиСистемыНалогообложения</content>
+  <content>Role.НастройкаСистемыНалогообложения</content>
+  <content>Role.ЧтениеНастроекСистемыНалогообложения</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.БазовыеСправочныеДанныеРасширенная</parentSubsystem>
+</mdclass:Subsystem>

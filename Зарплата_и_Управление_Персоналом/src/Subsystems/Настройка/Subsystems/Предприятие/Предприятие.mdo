@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2689c064-bf08-4ab2-b00d-b26354f08637">
+  <name>Предприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предприятие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Предприятие48</picture>
+  </picture>
+  <content>Catalog.Организации</content>
+  <content>Catalog.ГрафикиРаботыСотрудников</content>
+  <content>Catalog.ВидыОтпусков</content>
+  <content>Catalog.ВидыСтажа</content>
+  <content>Catalog.ПроизводственныеКалендари</content>
+  <content>Catalog.ПодразделенияОрганизаций</content>
+  <content>Catalog.Должности</content>
+  <content>CommonCommand.ТарифныеСеткиНадбавок</content>
+  <content>CommonCommand.ТарифныеСеткиТарифовВХозрасчете</content>
+  <content>Catalog.РазрядыКатегорииДолжностей</content>
+  <content>CommonCommand.КвалификационныеРазрядыКатегории</content>
+  <content>Catalog.ТерриторииВыполненияРабот</content>
+  <content>Catalog.УсловияТруда</content>
+  <content>Catalog.ГруппыСотрудников</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Catalog.СпособыВыплатыЗарплаты</content>
+  <content>Catalog.РежимыРаботыСотрудников</content>
+  <content>Catalog.СамостоятельныеКлассификационныеЕдиницы</content>
+  <content>Catalog.СменыРаботыСотрудников</content>
+  <parentSubsystem>Subsystem.Настройка</parentSubsystem>
+</mdclass:Subsystem>

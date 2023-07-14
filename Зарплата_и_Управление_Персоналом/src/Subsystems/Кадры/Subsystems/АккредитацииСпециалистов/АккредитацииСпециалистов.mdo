@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b95e1c09-dd8a-4ebf-974c-2a47ba4d3236">
+  <name>АккредитацииСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккредитации специалистов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.АккредитацииСпециалистов</content>
+  <parentSubsystem>Subsystem.Кадры</parentSubsystem>
+</mdclass:Subsystem>

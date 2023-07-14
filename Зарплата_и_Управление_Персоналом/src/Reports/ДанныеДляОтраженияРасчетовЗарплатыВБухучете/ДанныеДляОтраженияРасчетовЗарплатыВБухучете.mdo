@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7b96555-380f-4e85-a34f-4a52a46ef6cc">
+  <producedTypes>
+    <objectType typeId="ce640aad-b1e1-4673-a7f5-b7ae9a6690b2" valueTypeId="6cbc6d82-97fd-4a15-8e91-58c38ba1293d"/>
+    <managerType typeId="312f0625-daf1-4e1a-a802-ecb49aaf0889" valueTypeId="01d28cab-e927-44da-b381-511a81d46951"/>
+  </producedTypes>
+  <name>ДанныеДляОтраженияРасчетовЗарплатыВБухучете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные для отражения расчетов зарплаты в бухучете</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ДанныеДляОтраженияРасчетовЗарплатыВБухучете.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="59b18552-ef6b-43d2-beab-1d91a31790c8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b890409-40f8-47a1-b18b-55cfbef1e10d">
+  <producedTypes>
+    <containerType typeId="a22355b4-36c7-4680-99ed-d0294a214346" valueTypeId="c38468e1-53b6-4385-b8c8-03b720d63398"/>
+  </producedTypes>
+  <name>ОпределяющийСвязиСотрудникаОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определяющий связи сотрудника объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.Сотрудники</types>
+  </type>
+</mdclass:DefinedType>

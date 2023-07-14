@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ab54973-cd1f-4ffd-867b-57942cac9840">
+  <producedTypes>
+    <objectType typeId="bbf491d9-b3dd-4087-b122-0b3e25791e06" valueTypeId="b8bbde82-ae53-466b-93d0-cc2747ad78a0"/>
+    <managerType typeId="1bd70570-af7b-4901-b4cf-aa767f416863" valueTypeId="2bede336-4186-4d92-9f71-612fca283ddc"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетСтатистикаФормаЗПФизическаяКультураИСпорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма ЗП-физическая культура и спорт &quot;Сведения о численности и оплате труда работников организаций в области физической культуры и спорта по категориям персонала&quot;</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетСтатистикаФормаЗПФизическаяКультураИСпорт.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="6e43a86f-f8f9-45b6-a076-fdbb55d8f1e2">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика: ЗП-физическая культура и спорт</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c733dd4-dca4-42e9-a70c-4eaa94ca0102">
+    <name>ФормаОтчета2019Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ЗП-физическая культура и спорт</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="dd33ca8f-be12-4b8c-8ebb-dde559bcf718">
+    <name>ФормаОтчета2019Кв1_ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2019 кв1 форма отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="c0da429f-1441-46c5-8018-563ba7cb341d">
+    <name>НастройкиСравнения2019Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2019 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="2d549889-7d0b-40bc-80e1-ab40748fafaa">
+    <name>СоставПоказателей2019Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав показателей2019 кв1</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

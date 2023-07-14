@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d694888e-6051-4fdc-8e3e-8ec90bf0d1e0">
+  <name>ВыплатыПеречисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ВыплатыПеречисления48</picture>
+  </picture>
+  <content>Document.ВедомостьНаВыплатуЗарплатыВБанк</content>
+  <content>Document.ВедомостьНаВыплатуЗарплатыВКассу</content>
+  <content>Document.ВедомостьНаВыплатуЗарплатыПеречислением</content>
+  <content>Document.ВедомостьНаВыплатуЗарплатыРаздатчиком</content>
+  <content>Document.ДепонированиеЗарплаты</content>
+  <content>Document.ПодтверждениеЗачисленияЗарплаты</content>
+  <content>Document.ЗаявкаНаОткрытиеЛицевыхСчетовСотрудников</content>
+  <content>Document.ПодтверждениеОткрытияЛицевыхСчетовСотрудников</content>
+  <content>Document.ВыплатаБывшимСотрудникам</content>
+  <content>Document.СведенияОНезачисленнойЗарплате</content>
+  <content>Document.СписаниеДепонированнойЗарплаты</content>
+  <content>DataProcessor.ОбменСБанкамиПоЗарплатнымПроектам</content>
+  <content>DocumentJournal.ВедомостиНаВыплатуЗарплаты</content>
+  <content>Document.ВозвратСотрудникомЗадолженности</content>
+  <content>Document.ВыплатаДепонированнойЗарплаты</content>
+  <content>Document.ПеречислениеНДФЛВБюджет</content>
+  <content>DocumentJournal.Депоненты</content>
+  <content>DataProcessor.ПлатежиПоРезультатамРасчетаЗарплаты</content>
+  <content>Report.АнализЗадолженностиПоЗарплате</content>
+  <content>Document.НачальнаяЗадолженностьПоЗарплате</content>
+  <content>Document.ЗаявкаНаЗакрытиеЛицевыхСчетовСотрудников</content>
+  <content>DocumentJournal.ДокументыОбменаСБанкамиПоЗарплатнымПроектам</content>
+  <content>DocumentJournal.ПрочиеДоходы</content>
+  <content>Report.ВыплатыНезарплатныхДоходов</content>
+  <content>CommonCommand.ПанельОтчетовВыплатыПеречисления</content>
+  <content>Catalog.ЗарплатныеПроекты</content>
+  <content>Catalog.Кассы</content>
+  <content>Catalog.ВидыВыплатБывшимСотрудникам</content>
+  <content>Catalog.ТарифыПлатежныхАгентов</content>
+  <content>Catalog.ВидыПрочихДоходовФизическихЛиц</content>
+  <content>CommonCommand.ДополнительныеОтчетыВыплатыПеречисления</content>
+  <content>CommonCommand.ДополнительныеОбработкиВыплатыПеречисления</content>
+  <content>Document.КомпенсацияЗаЗадержкуЗарплаты</content>
+  <content>DocumentJournal.ПеречисленияНДФЛВБюджет</content>
+  <content>DocumentJournal.ВедомостиПрочихДоходов</content>
+  <content>Document.ПодтверждениеВыплатыДоходов</content>
+  <content>InformationRegister.ЛицевыеСчетаСотрудниковПоЗарплатнымПроектам</content>
+  <content>Document.ВедомостьПрочихДоходовВБанк</content>
+  <content>Document.ВедомостьПрочихДоходовВКассу</content>
+  <content>Document.ВедомостьПрочихДоходовПеречислением</content>
+  <content>CommonPicture.ВыплатыПеречисления48</content>
+  <subsystems>АнализЗадолженностей</subsystems>
+  <subsystems>Депоненты</subsystems>
+  <subsystems>ПерваяПоловинаМесяца</subsystems>
+</mdclass:Subsystem>

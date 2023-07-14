@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c437b87-e03b-4985-8406-a18adbc5476a">
+  <name>ИспользоватьАккредитациюСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать аккредитацию специалистов</value>
+  </synonym>
+  <location>Constant.ИспользоватьАккредитациюСпециалистов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.СведенияОбАккредитацияхСпециалистов</content>
+  <content>Report.АккредитацииСпециалистов</content>
+  <content>Catalog.ПрофессиональныеСтандарты</content>
+  <content>Catalog.ВидыДеятельностиСпециалистов</content>
+  <content>Catalog.ВидыПроцедурАккредитацииСпециалистов</content>
+</mdclass:FunctionalOption>

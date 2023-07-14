@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7e43318-615d-4728-8247-e217e023dd7f">
+  <name>ИспользоватьОбменЗарплата3Бухгалтерия3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен зарплата3 бухгалтерия3</value>
+  </synonym>
+  <location>Constant.ИспользоватьОбменЗарплата3Бухгалтерия3</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОтражениеСтатистикиПерсоналаВБухучетеПрисоединенныеФайлы</content>
+  <content>Document.ОтражениеСтатистикиПерсоналаВБухучете</content>
+</mdclass:FunctionalOption>

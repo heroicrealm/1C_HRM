@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3187e230-f695-4308-a5f6-44f5cb0b6d82">
+  <producedTypes>
+    <managerType typeId="fd98aebb-774f-4322-9e47-1c4d0cafaae5" valueTypeId="4edfd242-2aa6-4b4c-9095-4b8b34f636ab"/>
+    <valueManagerType typeId="c308c357-af99-423a-9669-e1d86c0bec2c" valueTypeId="1b66b3fb-49f5-4639-b368-a4878735cbbe"/>
+    <valueKeyType typeId="55f206ec-02f6-4935-9649-2d4adce63b2f" valueTypeId="1bee11da-f67e-4a63-9b59-61ccccd2c96a"/>
+  </producedTypes>
+  <name>ИспользоватьОбменЗарплата3Бухгалтерия3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен зарплата3 бухгалтерия3</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

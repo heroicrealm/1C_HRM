@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1853e4af-8275-4694-bce6-4322150010ea">
+  <producedTypes>
+    <objectType typeId="9a2bb348-8821-4bfd-864d-bab7f07b42ab" valueTypeId="bb4c1557-fedf-49e0-85ba-c6f5f2170900"/>
+    <managerType typeId="fc708b31-239f-4b08-a791-708c2a03e140" valueTypeId="5af294e0-8b53-4b65-b7aa-f2f1a4d224ad"/>
+  </producedTypes>
+  <name>ШтатноеРасписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штатное расписание</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ШтатноеРасписание.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="67c81e83-1fc7-4732-9cba-6052371e9057">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="06414339-a13a-402c-9ae5-4715985338ac">
+    <name>ПФ_MXL_ШтатноеРасписаниеНаПодпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штатное расписание на подпись</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="423b9d2b-9df5-4a5b-b773-fec8788f7caf">
+  <producedTypes>
+    <objectType typeId="810732aa-5f53-464e-ab1c-4dfa09979ac2" valueTypeId="4f88fbf2-7ed2-4e72-974c-9c91c2a14cdb"/>
+    <managerType typeId="c68bd030-33ee-4dec-af7e-2ee5be26023f" valueTypeId="6dff7720-5f90-40a4-8e8c-4e7467f2d7b7"/>
+  </producedTypes>
+  <name>МигрирующиеОбъектыРИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мигрирующие объекты РИБ</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.МигрирующиеОбъектыРИБ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="533299b3-52c0-48d6-a9e9-8558dc4655eb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

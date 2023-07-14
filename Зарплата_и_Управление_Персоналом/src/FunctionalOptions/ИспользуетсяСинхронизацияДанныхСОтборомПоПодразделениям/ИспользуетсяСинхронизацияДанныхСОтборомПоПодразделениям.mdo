@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3d56923-cb64-4751-afe7-86a00976f92a">
+  <name>ИспользуетсяСинхронизацияДанныхСОтборомПоПодразделениям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется синхронизация данных с отбором по подразделениям</value>
+  </synonym>
+  <location>Constant.ИспользуетсяСинхронизацияДанныхСОтборомПоПодразделениям</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3be6c833-02e7-4c9a-adcb-3b8dec3aba2f">
+  <name>ЧтениеНастроекОбменаЗарплата3Бухгалтерия3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение настроек обмена зарплата3 бухгалтерия3</value>
+  </synonym>
+</mdclass:Role>

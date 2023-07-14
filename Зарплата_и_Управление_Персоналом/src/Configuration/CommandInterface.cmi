@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Кадры</subsystems>
+    <subsystems>Subsystem.Зарплата</subsystems>
+    <subsystems>Subsystem.ВыплатыПеречисления</subsystems>
+    <subsystems>Subsystem.НалогиИВзносы</subsystems>
+    <subsystems>Subsystem.Отчетность</subsystems>
+    <subsystems>Subsystem.Настройка</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
+    <subsystems>8bef396d-6651-4f99-a6ef-b5da52c185bb</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

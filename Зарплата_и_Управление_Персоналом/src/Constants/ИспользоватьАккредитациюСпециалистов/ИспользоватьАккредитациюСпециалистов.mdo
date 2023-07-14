@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40ab0d33-4a2e-48f3-8df4-6e35bd6adba8">
+  <producedTypes>
+    <managerType typeId="654b097f-c5b0-4634-9991-9cbe295029bf" valueTypeId="3ff7abd5-cdba-4b8e-bc1a-37cba7719da4"/>
+    <valueManagerType typeId="d51877f0-1df0-4e5c-88f3-3e403c61ff11" valueTypeId="dfd14046-a14f-4488-b3e5-c9aa2be2867c"/>
+    <valueKeyType typeId="40008a4e-fafd-42cf-b5b7-fc0880f82275" valueTypeId="6209d1cf-d425-4871-96ea-b1c088d42af0"/>
+  </producedTypes>
+  <name>ИспользоватьАккредитациюСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать аккредитацию специалистов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

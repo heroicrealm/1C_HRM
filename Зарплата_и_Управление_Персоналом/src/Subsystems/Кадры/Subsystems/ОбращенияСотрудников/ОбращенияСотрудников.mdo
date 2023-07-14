@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0af8169e-b4c7-4e30-be7d-e0706ecbaf28">
+  <name>ОбращенияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обращения сотрудников</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.Кадры</parentSubsystem>
+</mdclass:Subsystem>

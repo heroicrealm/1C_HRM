@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47955448-4a45-408c-b35c-02426d8c75c0">
+  <producedTypes>
+    <objectType typeId="7bbfebae-a630-4fbe-b7d7-4ad2f42bd153" valueTypeId="22114d9f-c096-4d79-89bf-c0a40229db15"/>
+    <managerType typeId="b43a149e-3939-4588-8757-ec36ef82de50" valueTypeId="a1ea3458-9b8f-407a-951a-7b3b02c0aaa9"/>
+  </producedTypes>
+  <name>АккредитацииСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккредитации специалистов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.АккредитацииСпециалистов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="cfe99f62-ae8a-49ae-b752-1fa772650ccb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

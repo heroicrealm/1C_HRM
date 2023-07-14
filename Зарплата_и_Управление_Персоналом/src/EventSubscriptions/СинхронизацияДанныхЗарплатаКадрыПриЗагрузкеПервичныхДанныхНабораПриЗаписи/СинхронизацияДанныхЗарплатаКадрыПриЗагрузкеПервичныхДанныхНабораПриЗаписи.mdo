@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27585d99-a8e2-4065-8b08-c56dabd91e2c">
+  <name>СинхронизацияДанныхЗарплатаКадрыПриЗагрузкеПервичныхДанныхНабораПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных зарплата кадры при загрузке первичных данных набора при записи</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ТерриторииСотрудников</types>
+    <types>InformationRegisterRecordSet.ГрафикРаботыСотрудников</types>
+    <types>InformationRegisterRecordSet.ПериодыДействияДоговоровГражданскоПравовогоХарактера</types>
+    <types>InformationRegisterRecordSet.ЗначенияПериодическихПоказателейРасчетаЗарплатыСотрудников</types>
+    <types>InformationRegisterRecordSet.ЗанятостьПозицийШтатногоРасписания</types>
+    <types>InformationRegisterRecordSet.ВидыЗанятостиСотрудников</types>
+    <types>InformationRegisterRecordSet.СтандартныеВычетыФизическихЛицНДФЛ</types>
+    <types>InformationRegisterRecordSet.ПлановыеНачисления</types>
+    <types>InformationRegisterRecordSet.ПрименениеСтандартныхВычетовПоНДФЛ</types>
+    <types>InformationRegisterRecordSet.КадроваяИсторияСотрудников</types>
+    <types>InformationRegisterRecordSet.СтандартныеВычетыНаДетейНДФЛ</types>
+    <types>InformationRegisterRecordSet.ПлановыеАвансы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СинхронизацияДанныхЗарплатаКадрыСобытия.ПриЗагрузкеПервичныхДанныхНабораПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d387526c-1363-41fb-8920-2eb1e7e62447">
+  <name>ИнтеграцияМультибух</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция мультибух</value>
+  </synonym>
+  <content>Catalog.НастройкиИнтеграцииМультибух</content>
+  <content>InformationRegister.ХранилищеДанныхМультибух</content>
+</mdclass:Subsystem>

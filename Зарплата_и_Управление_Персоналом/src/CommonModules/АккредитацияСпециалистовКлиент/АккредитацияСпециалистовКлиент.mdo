@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4e0726e-974b-41d0-ab02-dbc02b14db50">
+  <name>АккредитацияСпециалистовКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккредитация специалистов клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

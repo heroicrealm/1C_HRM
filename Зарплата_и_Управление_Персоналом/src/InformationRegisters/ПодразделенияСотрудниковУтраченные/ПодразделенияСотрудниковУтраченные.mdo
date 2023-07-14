@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cc3e73d-fc6b-4689-b56a-1c0030478f3f">
+  <producedTypes>
+    <selectionType typeId="c5aa109c-6c0b-4ff8-aca7-90b465ab8156" valueTypeId="9543b4a0-d1b6-4c90-8c9c-27b69e72b108"/>
+    <listType typeId="03cf520d-7835-4ec7-aafb-6a722a8cd256" valueTypeId="7f1da2b6-0e59-4642-8f15-ea2e0de93b20"/>
+    <managerType typeId="6b7bb887-6cae-4e99-81a1-4b217c2647d3" valueTypeId="cd1cd367-cdd0-4a9e-a454-d855ee06e1bd"/>
+    <recordSetType typeId="a5a35f73-fbad-4b29-916f-11df7f712540" valueTypeId="d6683ef7-818f-456c-b16f-64e161420390"/>
+    <recordKeyType typeId="509f978d-e986-47d9-8b67-d5fb521b72e8" valueTypeId="42af5268-3dde-42b9-b07a-479a5ad83d76"/>
+    <recordType typeId="7a62cad1-5187-4666-9e2d-04f08293e6fd" valueTypeId="1fe0cb5a-93e4-4dc4-af60-f23abcd2040e"/>
+    <recordManagerType typeId="dc337d86-7a27-4b1b-a395-a22538ea28c9" valueTypeId="feb10cf2-2e3d-4880-b13d-f8b1a8075b20"/>
+  </producedTypes>
+  <name>ПодразделенияСотрудниковУтраченные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения сотрудников утраченные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="27e4b8bf-bf92-4317-a551-25b4ce2094b3">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="846307b9-53dc-477d-ae75-28abcb025f48">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

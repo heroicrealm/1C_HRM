@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d433c2a0-1740-467a-ac37-25b32cf69bc1">
+  <name>СинхронизацияДанныхЗарплатаКадрыИзменитьСвязиФизическогоЛицаДокументПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных зарплата кадры изменить связи физического лица документ перед записью</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОпределяющийСвязиФизическогоЛицаДокумент</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.СинхронизацияДанныхЗарплатаКадрыСобытия.ИзменитьСвязиФизическогоЛицаОбъектПередЗаписью</handler>
+</mdclass:EventSubscription>

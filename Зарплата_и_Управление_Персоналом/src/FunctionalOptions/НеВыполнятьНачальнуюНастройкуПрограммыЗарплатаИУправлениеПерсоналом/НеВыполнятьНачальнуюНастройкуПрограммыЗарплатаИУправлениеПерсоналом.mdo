@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="109e230f-b3fe-4951-ab63-173230ce809f">
+  <name>НеВыполнятьНачальнуюНастройкуПрограммыЗарплатаИУправлениеПерсоналом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не выполнять начальную настройку программы зарплата и управление персоналом</value>
+  </synonym>
+  <location>Constant.НеВыполнятьНачальнуюНастройкуПрограммы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ИнформационныйЦентр</content>
+</mdclass:FunctionalOption>

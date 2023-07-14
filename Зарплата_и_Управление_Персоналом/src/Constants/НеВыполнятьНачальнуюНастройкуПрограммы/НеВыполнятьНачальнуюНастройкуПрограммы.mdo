@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7db543ae-a536-4244-a252-375de0799630">
+  <producedTypes>
+    <managerType typeId="3c2523d0-2519-42a6-8a65-36c996a458ac" valueTypeId="9f343f08-9f19-45b4-bee9-d53aeeac77d0"/>
+    <valueManagerType typeId="ce858bb2-2ff1-4fd2-9a6c-af3b403e3a77" valueTypeId="882ea3c0-d947-43c1-9896-9195869b744d"/>
+    <valueKeyType typeId="c8965177-332a-51ec-b9af-e5548affabdf" valueTypeId="8aa5e086-c01f-57fb-bd50-2d6fbeb76555"/>
+  </producedTypes>
+  <name>НеВыполнятьНачальнуюНастройкуПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не выполнять начальную настройку программы</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

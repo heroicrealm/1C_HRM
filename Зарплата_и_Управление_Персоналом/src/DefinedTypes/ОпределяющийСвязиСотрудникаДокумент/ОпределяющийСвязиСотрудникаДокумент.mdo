@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="344ae140-b37d-470d-9ab2-617013e52691">
+  <producedTypes>
+    <containerType typeId="aeb5f6ae-4e1f-4093-a431-0002824ecf8f" valueTypeId="52c90b51-953c-4fb3-b4e9-9c734baf86be"/>
+  </producedTypes>
+  <name>ОпределяющийСвязиСотрудникаДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определяющий связи сотрудника документ</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ПеремещениеВДругоеПодразделение</types>
+    <types>DocumentObject.ДоговорРаботыУслуги</types>
+    <types>DocumentObject.ПереводКДругомуРаботодателю</types>
+    <types>DocumentObject.ПриемНаРаботуСписком</types>
+    <types>DocumentObject.НачальнаяШтатнаяРасстановка</types>
+    <types>DocumentObject.НазначениеПодработки</types>
+    <types>DocumentObject.ВыплатыПоДоговорамОпеки</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+  </type>
+</mdclass:DefinedType>

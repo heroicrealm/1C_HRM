@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aee8d2b5-0729-4487-af89-f1dac7d264e5">
+  <producedTypes>
+    <selectionType typeId="ee549290-411c-4891-9548-d7b5d5a6eacb" valueTypeId="31003af8-557e-451c-8eb0-d0f1fb4920fc"/>
+    <listType typeId="057b19c6-2eea-4275-8c3c-7faffaed4539" valueTypeId="2f31b6e7-79b4-4496-a3b4-36499ffde159"/>
+    <managerType typeId="07233fe0-c44a-4795-af0a-b425860387af" valueTypeId="9dad93c4-4258-483f-8ac9-f5f886d5eb35"/>
+    <recordSetType typeId="406e630b-e0a6-46f1-8634-676d55e4933b" valueTypeId="96911a8d-a1bb-46db-8094-702c452cb5a9"/>
+    <recordKeyType typeId="1a535d2a-2102-4a7c-b35d-27bd9be3fa2b" valueTypeId="9b36fe99-25c0-4cc3-82a2-3462c364a2da"/>
+    <recordType typeId="973d9360-d3c7-484d-83a0-ef91bceab78c" valueTypeId="fc8cd802-cfdc-448b-8ea6-545e702a088b"/>
+    <recordManagerType typeId="2aba1129-db20-46f8-8fd3-3268e236aa2f" valueTypeId="d0ae82e6-fb81-42e8-b0b9-0a2a93521d85"/>
+  </producedTypes>
+  <name>НастройкиПодразделенийФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подразделений физических лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="59286cb1-cef5-423e-bd64-39a5f8e38a11">
+    <name>ЗаполнениеПроизведено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение произведено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a9488e79-1d17-48d8-9eb3-2b0edf3d990c">
+    <name>ЗаполнениеПроизводится</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение производится</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d48f5efc-5fab-4a07-b3e8-4fb309610821">
+    <name>ФизическихЛицКОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физических лиц к обработке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="596ecd80-849f-4a73-87b0-d745671663f1">
+    <name>ФизическихЛицОбработано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физических лиц обработано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

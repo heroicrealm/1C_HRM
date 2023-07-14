@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0b8d2e3-d8ef-41a0-8819-8c1e9005c66e">
+  <producedTypes>
+    <containerType typeId="c70e9b03-8303-433f-8ec1-4e6fc7c5122f" valueTypeId="4d9fe718-32f8-4cc4-bac6-32eab7b3cca8"/>
+  </producedTypes>
+  <name>ОпределяющийСвязиФизическогоЛицаДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определяющий связи физического лица документ</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ПеремещениеВДругоеПодразделение</types>
+    <types>DocumentObject.ДоговорРаботыУслуги</types>
+    <types>DocumentObject.ИсполнительныйЛист</types>
+    <types>DocumentObject.ПереводКДругомуРаботодателю</types>
+    <types>DocumentObject.ПриемНаРаботуСписком</types>
+    <types>DocumentObject.НачальнаяШтатнаяРасстановка</types>
+    <types>DocumentObject.КадровыйПеревод</types>
+    <types>DocumentObject.ДивидендыФизическимЛицам</types>
+    <types>DocumentObject.НазначениеПодработки</types>
+    <types>DocumentObject.КадровыйПереводСписком</types>
+    <types>DocumentObject.ВыплатыПоДоговорамОпеки</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+  </type>
+</mdclass:DefinedType>

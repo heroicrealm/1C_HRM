@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edc759b1-f273-47da-857d-ac13155e8321">
+  <name>СинхронизацияДанныхЗарплатаКадрыИзменитьСвязиСотрудникаНаборЗаписейПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных зарплата кадры изменить связи сотрудника набор записей при записи</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОпределяющийСвязиСотрудникаНаборЗаписей</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СинхронизацияДанныхЗарплатаКадрыСобытия.ИзменитьСвязиСотрудникаНаборЗаписейПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cbea47f-e6f3-488c-bc36-1f2a226d9428">
+  <name>ОбменДаннымиЗарплата3Бухгалтерия3Расширенный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными зарплата3 бухгалтерия3 расширенный</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

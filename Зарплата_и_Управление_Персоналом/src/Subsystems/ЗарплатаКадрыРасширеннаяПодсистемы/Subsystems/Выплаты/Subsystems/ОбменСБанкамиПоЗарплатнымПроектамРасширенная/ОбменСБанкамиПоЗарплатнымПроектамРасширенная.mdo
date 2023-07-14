@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="862231bf-3a05-43fd-9c9a-75ae5a8df8c0">
+  <name>ОбменСБанкамиПоЗарплатнымПроектамРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с банками по зарплатным проектам расширенная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОбменСБанкамиПоЗарплатнымПроектамРасширенный</content>
+  <content>CommonModule.ОбменСБанкамиПоЗарплатнымПроектамКлиентРасширенный</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы.Subsystem.Выплаты</parentSubsystem>
+</mdclass:Subsystem>

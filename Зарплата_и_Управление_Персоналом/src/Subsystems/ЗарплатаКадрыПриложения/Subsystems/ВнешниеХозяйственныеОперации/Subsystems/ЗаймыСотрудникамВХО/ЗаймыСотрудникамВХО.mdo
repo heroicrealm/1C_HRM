@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b0e7969-36f3-4e6e-90a5-52ad4e9209f2">
+  <name>ЗаймыСотрудникамВХО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Займы сотрудникам ВХО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ВыдачаЗаймаСотруднику</content>
+  <content>Document.ПогашениеЗаймаСотруднику</content>
+  <content>FunctionalOption.ИспользоватьВыдачуПогашениеЗаймовСотрудникам</content>
+  <content>Role.ДобавлениеИзменениеВыдачиПогашенияЗаймовСотрудникам</content>
+  <content>Role.ЧтениеВыдачиПогашенияЗаймовСотрудникам</content>
+  <content>CommonModule.ЗаймыСотрудникамВХО</content>
+  <content>CommonModule.ЗаймыСотрудникамВХОКлиент</content>
+  <content>Catalog.ВыдачаЗаймаСотрудникуПрисоединенныеФайлы</content>
+  <content>Catalog.ПогашениеЗаймаСотрудникуПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.ВнешниеХозяйственныеОперации</parentSubsystem>
+</mdclass:Subsystem>

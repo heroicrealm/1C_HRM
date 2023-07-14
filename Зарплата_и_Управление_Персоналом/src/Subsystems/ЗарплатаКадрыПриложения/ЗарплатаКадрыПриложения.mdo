@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a6456ad-212f-4d5c-b388-c273ac2ffbba">
+  <name>ЗарплатаКадрыПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата и кадры (прочее) </value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.ДобавлениеИзменениеДолжностей</content>
+  <content>Role.ЧтениеДолжностей</content>
+  <content>Role.БазовыеПраваЗарплатаКадрыПриложения</content>
+  <subsystems>АккредитацияСпециалистов</subsystems>
+  <subsystems>БазовыеСправочныеДанные</subsystems>
+  <subsystems>БазовыеСправочныеДанныеРасширенная</subsystems>
+  <subsystems>БухучетХозрасчетныхОрганизаций</subsystems>
+  <subsystems>ВнешниеДанные</subsystems>
+  <subsystems>ВнешниеХозяйственныеОперации</subsystems>
+  <subsystems>Дивиденды</subsystems>
+  <subsystems>ЗарплатаКадрыБазоваяВерсия</subsystems>
+  <subsystems>ЗарплатаКадрыКомандныйИнтерфейс</subsystems>
+  <subsystems>КонфигурацииЗарплатаКадры</subsystems>
+  <subsystems>КонфигурацииЗарплатаКадрыРасширенная</subsystems>
+  <subsystems>НачальнаяНастройкаПрограммы</subsystems>
+  <subsystems>ОбменДаннымиУниверсальныйФормат</subsystems>
+  <subsystems>ОбменЗарплата3Бухгалтерия3</subsystems>
+  <subsystems>ОбменЗарплата3Бухгалтерия3Расширенная</subsystems>
+  <subsystems>ОрганизационнаяСтруктура</subsystems>
+  <subsystems>ОтложенноеПроведениеДокументов</subsystems>
+  <subsystems>ОценочныеОбязательстваЗарплатаКадры</subsystems>
+  <subsystems>ОценочныеОбязательстваЗарплатаКадрыРасширенная</subsystems>
+  <subsystems>ПереносДанных</subsystems>
+  <subsystems>ПереносДанныхЗарплатаКадры</subsystems>
+  <subsystems>Подработки</subsystems>
+  <subsystems>ПодразделенияОрганизаций</subsystems>
+  <subsystems>РегистрацияДанныхПредыдущихИС</subsystems>
+  <subsystems>РегламентированнаяОтчетность</subsystems>
+  <subsystems>РегламентированнаяОтчетностьЗаполнение</subsystems>
+  <subsystems>РегламентированнаяОтчетностьРасширенная</subsystems>
+  <subsystems>РуководителиПодразделений</subsystems>
+  <subsystems>СведенияОбОтветственныхЛицах</subsystems>
+  <subsystems>СинхронизацияДанных</subsystems>
+  <subsystems>УчетДепонированнойЗарплаты</subsystems>
+  <subsystems>УчетДепонированнойЗарплатыРасширенная</subsystems>
+  <subsystems>УчетХозрасчетныхОрганизаций</subsystems>
+  <subsystems>ШтрихкодыБольничныхЛистов</subsystems>
+</mdclass:Subsystem>

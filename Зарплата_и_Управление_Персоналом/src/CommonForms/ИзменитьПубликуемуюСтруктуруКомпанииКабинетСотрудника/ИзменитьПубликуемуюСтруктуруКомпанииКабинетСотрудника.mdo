@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="195109aa-ecb9-47d8-b9c7-8cd728a4bd30">
+  <name>ИзменитьПубликуемуюСтруктуруКомпанииКабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменить публикуемую структуру компании кабинет сотрудника</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

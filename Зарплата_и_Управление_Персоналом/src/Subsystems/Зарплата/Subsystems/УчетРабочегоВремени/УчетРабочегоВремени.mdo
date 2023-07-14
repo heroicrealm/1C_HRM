@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91db1f47-cc67-4c08-ad55-1966bdca01b6">
+  <name>УчетРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет времени</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ТабельУчетаРабочегоВремени</content>
+  <content>Document.ИндивидуальныйГрафик</content>
+  <content>Report.УнифицированнаяФормаТ13</content>
+  <content>Document.РаботаСверхурочно</content>
+  <content>Document.РаботаВВыходныеИПраздничныеДни</content>
+  <content>Document.РегистрацияПереработок</content>
+  <parentSubsystem>Subsystem.Зарплата</parentSubsystem>
+</mdclass:Subsystem>

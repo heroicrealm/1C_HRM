@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13566594-ee5a-40b7-aa0c-310c4f90f211">
+  <name>БухучетХозрасчетныхОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухучет хозрасчетных организаций</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

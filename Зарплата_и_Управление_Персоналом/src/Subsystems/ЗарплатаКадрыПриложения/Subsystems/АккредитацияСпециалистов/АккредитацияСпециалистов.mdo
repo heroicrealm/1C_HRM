@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d3d95b1-12eb-4258-b845-4f834408d0a9">
+  <name>АккредитацияСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккредитация специалистов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ПрофессиональныеСтандарты</content>
+  <content>InformationRegister.СведенияОбАккредитацияхСпециалистов</content>
+  <content>Report.АккредитацииСпециалистов</content>
+  <content>Constant.ИспользоватьАккредитациюСпециалистов</content>
+  <content>FunctionalOption.ИспользоватьАккредитациюСпециалистов</content>
+  <content>Catalog.ВидыДеятельностиСпециалистов</content>
+  <content>Role.ДобавлениеИзменениеСведенийОбАккредитацииСпециалистов</content>
+  <content>Role.ЧтениеСведенийОбАккредитацииСпециалистов</content>
+  <content>Catalog.ВидыПроцедурАккредитацииСпециалистов</content>
+  <content>CommonModule.АккредитацияСпециалистов</content>
+  <content>CommonModule.АккредитацияСпециалистовКлиент</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

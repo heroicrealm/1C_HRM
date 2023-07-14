@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="034cabaf-da6c-45fc-954a-2bf3a73954cb">
+  <name>БронированиеПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование помещений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.Настройка.Subsystem.Справочники</parentSubsystem>
+</mdclass:Subsystem>

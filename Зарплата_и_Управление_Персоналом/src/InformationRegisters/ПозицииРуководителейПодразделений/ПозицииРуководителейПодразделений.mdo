@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="204e9592-a19f-49e7-b71f-63d194218d37">
+  <producedTypes>
+    <selectionType typeId="fb2f15f5-1059-4cad-b9c5-c25cbccbf477" valueTypeId="88eb04bb-7e2d-47bb-a298-3342ff9260aa"/>
+    <listType typeId="39e76f6c-c457-4ce6-bc06-6c269ec88a20" valueTypeId="edcd177d-4228-4280-ac69-6f13f7ddaf5b"/>
+    <managerType typeId="c3ae9247-d11e-446b-ac15-c11f8017c86d" valueTypeId="546177f6-cd0b-4257-9df5-346d209e15ad"/>
+    <recordSetType typeId="fdbe2dd7-369b-4eba-baf5-3d5c55f50fcb" valueTypeId="1622b792-3278-4c63-b3df-09a311a894b4"/>
+    <recordKeyType typeId="8ba7a525-60a6-4c09-b7aa-dfb7fef9e51b" valueTypeId="cb0a3f7f-4041-448b-b49e-ab3632c710fa"/>
+    <recordType typeId="825c601c-8790-447b-9d12-d4d1db53acc7" valueTypeId="47f26451-daa1-44aa-b0ca-b76dc05e8542"/>
+    <recordManagerType typeId="b2267e3c-da47-49f9-a217-278b931ffc25" valueTypeId="c6a8dfec-cb0a-4e61-84a1-ba937d3103a2"/>
+  </producedTypes>
+  <name>ПозицииРуководителейПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позиции руководителей подразделений</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="30a71e1a-d35d-4f84-a64b-5fc340fb956a">
+    <name>ПозицияШтатногоРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция штатного расписания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="90480a83-49cd-4976-8de6-3c06582b6349">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dafd7d6a-532c-49ab-9e09-7eaf92b99280">
+  <name>БухучетХозрасчетныхОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухучет хозрасчетных организаций</value>
+  </synonym>
+  <content>Document.ОтражениеЗарплатыВБухучете</content>
+  <content>Catalog.ОтражениеЗарплатыВБухучетеПрисоединенныеФайлы</content>
+  <content>CommonModule.БухучетХозрасчетныхОрганизацийКлиент</content>
+  <content>Report.ДанныеДляОтраженияВБухучете</content>
+  <content>CommonModule.БухучетХозрасчетныхОрганизаций</content>
+  <content>Role.ДобавлениеИзменениеОтраженияЗарплатыВБухучетеХозрасчетныхОрганизаций</content>
+  <content>Role.ЧтениеОтраженияЗарплатыВБухучетеХозрасчетныхОрганизаций</content>
+  <content>Role.ДобавлениеИзменениеОтраженияСтатистикиПерсоналаВБухучете</content>
+  <content>Document.ОтражениеСтатистикиПерсоналаВБухучете</content>
+  <content>Role.ЧтениеОтраженияСтатистикиПерсоналаВБухучете</content>
+  <content>Catalog.ОтражениеСтатистикиПерсоналаВБухучетеПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

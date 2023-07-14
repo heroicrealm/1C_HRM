@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9acbfc16-6240-4f4a-a8e9-6a13fae2e580">
+  <producedTypes>
+    <managerType typeId="c4a45a9c-a044-4744-860a-6e43b3fcb43d" valueTypeId="8b84d2a6-b9b6-429b-9d45-8967104da061"/>
+    <valueManagerType typeId="e8ccbf54-fbc9-4e9c-85ee-57effe0bf05b" valueTypeId="28f371da-b692-475d-b84f-802037b02de4"/>
+    <valueKeyType typeId="ca89c1a6-a97c-49ff-9db7-2177ab1bd96e" valueTypeId="66583a16-b82a-4f05-9378-53c54e4a41e1"/>
+  </producedTypes>
+  <name>ИспользуетсяОбменДаннымиУниверсальныйФормат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется обмен данными универсальный формат</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

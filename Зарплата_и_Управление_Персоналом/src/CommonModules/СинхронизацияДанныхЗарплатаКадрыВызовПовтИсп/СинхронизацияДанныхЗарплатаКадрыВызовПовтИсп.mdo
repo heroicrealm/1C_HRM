@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c594aa3f-1423-4f48-98c7-2da7a4a41c99">
+  <name>СинхронизацияДанныхЗарплатаКадрыВызовПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных зарплата кадры вызов повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringRequest</returnValuesReuse>
+</mdclass:CommonModule>

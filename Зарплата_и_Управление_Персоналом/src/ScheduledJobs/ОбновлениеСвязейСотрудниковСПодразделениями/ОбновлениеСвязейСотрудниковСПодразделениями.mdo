@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96190b68-914e-48f2-8781-4472e1bcc7db">
+  <name>ОбновлениеСвязейСотрудниковСПодразделениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление связей сотрудников с подразделениями</value>
+  </synonym>
+  <methodName>CommonModule.СинхронизацияДанныхЗарплатаКадрыСервер.ОбновлениеСвязейСотрудниковСПодразделениями</methodName>
+  <key>ОбновлениеСвязейСотрудниковСПодразделениями</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

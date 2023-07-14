@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bce84e59-e738-4374-ae00-8f25d18ce097">
+  <name>ЧтениеОтраженияЗарплатыВБухучетеХозрасчетныхОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение отражения зарплаты в бухучете хозрасчетных организаций</value>
+  </synonym>
+</mdclass:Role>

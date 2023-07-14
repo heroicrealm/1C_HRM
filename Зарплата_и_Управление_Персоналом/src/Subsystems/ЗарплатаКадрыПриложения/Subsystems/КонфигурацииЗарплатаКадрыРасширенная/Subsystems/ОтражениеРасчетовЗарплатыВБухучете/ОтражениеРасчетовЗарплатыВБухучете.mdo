@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b6f903c-0adf-4f06-8ae0-67b266db7c01">
+  <name>ОтражениеРасчетовЗарплатыВБухучете</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отражение расчетов зарплаты в бухучете</value>
+  </synonym>
+  <content>AccumulationRegister.ОтражениеВБухучетеНачисленнаяЗарплатаИВзносы</content>
+  <content>AccumulationRegister.ОтражениеВБухучетеНачисленныйНДФЛ</content>
+  <content>AccumulationRegister.ОтражениеВБухучетеУдержаннаяЗарплата</content>
+  <content>CommonModule.ОтражениеРасчетовЗарплатыВБухучете</content>
+  <content>AccumulationRegister.ОтражениеВБухучетеВыплатаОтпусковЗаСчетРезерва</content>
+  <content>Role.ЧтениеОтраженияРасчетовЗарплатыВБухучете</content>
+  <content>Report.ДанныеДляОтраженияРасчетовЗарплатыВБухучете</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения.Subsystem.КонфигурацииЗарплатаКадрыРасширенная</parentSubsystem>
+</mdclass:Subsystem>

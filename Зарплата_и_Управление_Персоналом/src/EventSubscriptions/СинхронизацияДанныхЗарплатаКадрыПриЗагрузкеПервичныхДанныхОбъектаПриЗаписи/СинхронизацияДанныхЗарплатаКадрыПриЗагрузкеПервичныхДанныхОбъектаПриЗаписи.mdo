@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6d58cf8-2132-4894-9e74-9a4bb8c3cabb">
+  <name>СинхронизацияДанныхЗарплатаКадрыПриЗагрузкеПервичныхДанныхОбъектаПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных зарплата кадры при загрузке первичных данных объекта при записи</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ФизическиеЛица</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СинхронизацияДанныхЗарплатаКадрыСобытия.ПриЗагрузкеПервичныхДанныхОбъектаПриЗаписи</handler>
+</mdclass:EventSubscription>
