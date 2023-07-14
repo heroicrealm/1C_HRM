@@ -97,6 +97,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.ТехнологияСервиса</subsystems>
   <subsystems>Subsystem.ЭлектронноеВзаимодействие</subsystems>
+  <subsystems>Subsystem.ДО_ДополнительныеОтчеты</subsystems>
   <styleItems>StyleItem.АктуальнаяПодпискаЦвет</styleItems>
   <styleItems>StyleItem.БазовыйЦветФонаЭтапаОтправки</styleItems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
